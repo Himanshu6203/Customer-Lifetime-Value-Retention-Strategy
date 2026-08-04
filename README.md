@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-An end-to-end Data Analytics project focused on customer churn analysis, customer segmentation, and retention strategy using SQL, Python, Power BI, and DAX.
+An end-to-end Data Analytics project focused on customer churn analysis, customer segmentation, and retention strategy using SQL, Python, Power BI, DAX, and Excel.
 </p>
 
 ---
@@ -20,7 +20,7 @@ An end-to-end Data Analytics project focused on customer churn analysis, custome
 
 - Project Overview
 - Business Problem
-- Project Objectives
+- Business Objectives
 - Dataset
 - Technology Stack
 - Project Workflow
@@ -34,6 +34,7 @@ An end-to-end Data Analytics project focused on customer churn analysis, custome
 - Repository Structure
 - Getting Started
 - Future Improvements
+- Skills Demonstrated
 - Author
 
 ---
@@ -42,21 +43,23 @@ An end-to-end Data Analytics project focused on customer churn analysis, custome
 
 Customer retention is one of the most important challenges in the Banking and Financial Services industry. Losing existing customers directly impacts revenue, customer lifetime value (CLV), and long-term profitability.
 
-This project analyzes customer demographics, spending behavior, credit utilization, and transaction activity to uncover churn patterns and provide actionable business recommendations.
+This project analyzes customer demographics, transaction behavior, credit utilization, and spending patterns to identify customer churn, segment customers based on value, and recommend strategies to improve customer retention.
 
 The project demonstrates an end-to-end analytics workflow:
 
 ```
 Business Understanding
-      ↓
+        ↓
+Data Cleaning
+        ↓
 SQL Analytics
-      ↓
-Python EDA
-      ↓
+        ↓
+Python Exploratory Data Analysis
+        ↓
 Power BI Dashboard
-      ↓
+        ↓
 Business Insights
-      ↓
+        ↓
 Business Recommendations
 ```
 
@@ -64,25 +67,18 @@ Business Recommendations
 
 # 🎯 Business Problem
 
-Credit card customers are becoming inactive and reducing transaction activity, increasing the likelihood of customer churn.
-
-The objective is to help a premium credit card company:
-
-- Reduce customer attrition
-- Identify high-value customers
-- Understand churn drivers
-- Improve customer lifetime value
-- Support data-driven business decisions
+Customer attrition reduces profitability and increases customer acquisition costs. Financial institutions need to proactively identify at-risk customers, understand spending behavior, and design targeted retention strategies.
 
 ---
 
 # 🎯 Project Objectives
 
-- Analyze customer churn trends
-- Segment customers by business value
-- Identify high-risk customer groups
-- Build interactive dashboards
-- Generate business recommendations
+- Analyze customer churn trends.
+- Identify high-value customer segments.
+- Understand spending behavior.
+- Detect customers at risk of becoming inactive.
+- Build an interactive Power BI dashboard.
+- Generate actionable business recommendations.
 
 ---
 
@@ -96,13 +92,13 @@ The objective is to help a premium credit card company:
 | Domain | Banking & Financial Services |
 | Target Variable | Attrition_Flag |
 
-Dataset Source:
+**Dataset Source:**
 
 https://www.kaggle.com/datasets/gauravtopiwala/bank-customer-churn-prediction
 
 ---
 
-# 🛠 Technology Stack
+# 🛠️ Technology Stack
 
 - SQL (MySQL)
 - Python
@@ -111,91 +107,153 @@ https://www.kaggle.com/datasets/gauravtopiwala/bank-customer-churn-prediction
 - Matplotlib
 - Power BI
 - DAX
-- Excel
+- Microsoft Excel
 
 ---
 
 # 🔄 Project Workflow
 
-(Add your workflow image here)
-
 ```
-Images/workflow.png
+Business Understanding
+        ↓
+Data Cleaning
+        ↓
+SQL Analytics
+        ↓
+Python EDA
+        ↓
+Customer Segmentation
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights
+        ↓
+Business Recommendations
 ```
 
 ---
 
-# 🗄 SQL Analytics
+# 🗄️ SQL Analytics
 
-Business questions answered:
+SQL was used to answer key business questions such as:
 
-- Customer Retention Analysis
-- Customer Segmentation
+- Customer Lifetime Value Analysis
+- Customer Inactivity Analysis
+- Spending Behaviour Analysis
 - Revenue Analysis
-- Spending Behaviour
-- Churn by Card Category
-- Churn by Demographics
-- Customer Value Analysis
+- Customer Engagement Analysis
+- Customer Segmentation
+- KPI Calculations
 
-SQL scripts are available in:
+Advanced SQL concepts used:
 
-```
-SQL/
-```
+- Aggregate Functions
+- CASE Statements
+- Window Functions
+- Common Table Expressions (CTEs)
+- Subqueries
+- Ranking Functions
 
 ---
 
 # 🐍 Python Analytics
 
-Performed:
+Python was used for:
 
 - Data Cleaning
-- Exploratory Data Analysis
+- Exploratory Data Analysis (EDA)
 - Customer Segmentation
 - Correlation Analysis
-- Statistical Analysis
+- Data Visualization
 
-Visualizations include:
+Key visualizations include:
 
 - Customer Age Distribution
+- Gender Distribution
 - Card Category Distribution
 - Churn Analysis
-- Income Analysis
+- Revenue Analysis
 - Correlation Heatmap
-
-Notebook:
-
-```
-Python/customer_analysis.ipynb
-```
+- Customer Value Distribution
 
 ---
 
 # 📊 Power BI Dashboard
 
-## Dashboard Pages
+The interactive dashboard consists of three pages.
 
-### 📄 Executive Summary
+## 📄 Page 1 – Executive Summary
 
-(Add Screenshot)
+Provides a high-level overview of business performance through KPIs and customer metrics.
+
+### KPIs
+
+- Total Customers
+- Attrition Rate
+- Average Transaction Amount
+- Average Credit Limit
+- Average Utilization Ratio
 
 ---
 
-### 📄 Customer Churn Analysis
+## 📄 Page 2 – Customer Churn Analysis
 
-(Add Screenshot)
+Analyzes customer attrition across multiple demographic and behavioral dimensions.
+
+Visualizations include:
+
+- Churn by Card Category
+- Churn by Income Category
+- Churn by Age Group
+- Churn by Gender
+- Churn by Education Level
+- Churn by Marital Status
 
 ---
 
-### 📄 Customer Value & Segmentation
+## 📄 Page 3 – Customer Value & Segmentation
 
-(Add Screenshot)
+Identifies high-value customers and customer segments requiring focused retention strategies.
+
+Visualizations include:
+
+- Customer Value Distribution
+- Revenue by Customer Segment
+- Average Transaction Amount
+- Average Credit Limit
+- Customer Segmentation
+
+---
+
+# 📷 Dashboard Preview
+
+## 📄 Executive Summary
+
+<p align="center">
+<img src="Images/page1_executive_summary.png" width="900">
+</p>
+
+---
+
+## 📄 Customer Churn Analysis
+
+<p align="center">
+<img src="Images/page2_customer_churn_analysis.png" width="900">
+</p>
+
+---
+
+## 📄 Customer Value & Segmentation
+
+<p align="center">
+<img src="Images/page3_customer_value_segmentation.png" width="900">
+</p>
 
 ---
 
 # 📈 DAX Measures
 
-Key DAX Measures include:
+The dashboard includes the following DAX measures:
 
 - Total Customers
 - Attrition Rate
@@ -212,18 +270,19 @@ Key DAX Measures include:
 - 83.9% of customers remain active, while 16.1% have churned.
 - Adults account for the highest number of churned customers.
 - Blue Card customers contribute the largest churn segment.
-- Lower-income customers exhibit relatively higher churn.
-- High-value customers contribute the largest share of revenue.
+- Customers earning less than \$40K exhibit relatively higher churn.
+- Platinum cardholders have the highest average credit limit.
+- High-value customers generate a significant share of overall revenue.
 
 ---
 
 # 📋 Business Recommendations
 
-- Strengthen retention for high-value customers.
-- Implement early churn detection.
-- Enhance Blue Card customer engagement.
-- Launch personalized loyalty programs.
-- Increase customer lifetime value through targeted offers.
+- Implement personalized retention campaigns for high-value customers.
+- Develop an early warning system to identify customers at risk of churn.
+- Increase engagement among Blue Card customers through loyalty programs.
+- Offer personalized rewards based on spending behavior and customer value.
+- Continuously monitor KPIs using interactive dashboards.
 
 ---
 
@@ -232,12 +291,13 @@ Key DAX Measures include:
 ```text
 Customer-Lifetime-Value-Retention-Strategy/
 
-├── Dataset
-├── SQL
-├── Python
-├── Power BI
-├── Documentation
-├── Images
+│
+├── Dataset/
+├── SQL/
+├── Python/
+├── Power BI/
+├── Images/
+├── Documentation/
 ├── README.md
 └── requirements.txt
 ```
@@ -246,33 +306,49 @@ Customer-Lifetime-Value-Retention-Strategy/
 
 # 🚀 Getting Started
 
-Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Himanshu6203/Customer-Lifetime-Value-Retention-Strategy.git
 ```
 
-Install dependencies:
+### Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run:
+### Run the Project
 
-- SQL scripts
-- Python notebook
-- Power BI dashboard
+1. Execute SQL queries in MySQL.
+2. Run the Python notebook.
+3. Open the Power BI dashboard (`.pbix`) in Power BI Desktop.
 
 ---
 
 # 📈 Future Improvements
 
-- Machine Learning Churn Prediction
-- Customer Lifetime Value Prediction
-- Power BI Service Deployment
-- Real-Time Dashboard
-- Automated Refresh
+- Customer Churn Prediction using Machine Learning
+- Customer Lifetime Value (CLV) Prediction
+- Real-time Dashboard using Power BI Service
+- Automated Data Refresh
+- Interactive What-If Analysis
+
+---
+
+# 🚀 Skills Demonstrated
+
+- SQL Analytics
+- Python Data Analysis
+- Data Cleaning
+- Exploratory Data Analysis
+- Customer Segmentation
+- Customer Churn Analysis
+- KPI Development
+- DAX
+- Power BI Dashboard Development
+- Business Analysis
+- Data Storytelling
 
 ---
 
@@ -282,8 +358,8 @@ Run:
 
 **Aspiring Data Analyst | Business Analyst**
 
-- GitHub: https://github.com/Himanshu6203
-- LinkedIn: https://www.linkedin.com/in/himanshu-singh-kothariya-490a1a28b/
+- **GitHub:** https://github.com/Himanshu6203
+- **LinkedIn:** https://www.linkedin.com/in/himanshu-singh-kothariya-490a1a28b/
 
 ---
 
