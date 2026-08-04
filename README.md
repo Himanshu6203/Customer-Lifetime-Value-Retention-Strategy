@@ -104,8 +104,7 @@ https://www.kaggle.com/datasets/bhuviranga/customer-churn-data?select=Bank+Custo
 The cleaned dataset used for analysis is included in this repository:
 
 
-"C:\Users\himan\OneDrive\Apps\Desktop\Customer Lifetime Value & Retention Strategy for a Premium Credit Card Company\BankChurners_Cleaned.csv"
-
+[BankChurners_Cleaned.csv](BankChurners_Cleaned.csv)
 
 The dataset was cleaned and enriched by:
 
