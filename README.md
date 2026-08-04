@@ -230,7 +230,7 @@ Visualizations include:
 ## 📄 Executive Summary
 
 <p align="center">
-<img src="Images/executive_summary.png" width="900">
+  <img src="Images/executive_summary_dashboard.png" width="900">
 </p>
 
 ---
@@ -238,7 +238,7 @@ Visualizations include:
 ## 📄 Customer Churn Analysis
 
 <p align="center">
-<img src="Images/customer_churn_analysis.png" width="900">
+  <img src="Images/customer_churn_analysis.png" width="900">
 </p>
 
 ---
@@ -246,9 +246,8 @@ Visualizations include:
 ## 📄 Customer Value & Segmentation
 
 <p align="center">
-<img src="Images/customer_value_segmentation.png" width="900">
+  <img src="Images/customer_value_segmentation.png" width="900">
 </p>
-
 ---
 
 # 📈 DAX Measures
