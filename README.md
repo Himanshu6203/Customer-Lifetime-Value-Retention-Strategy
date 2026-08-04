@@ -1,4 +1,4 @@
-# 💳 Customer Lifetime Value & Retention Strategy
+# 💳 Customer Churn Analytics & Retention Strategy
 
 <p align="center">
 
