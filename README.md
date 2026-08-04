@@ -92,9 +92,29 @@ Customer attrition reduces profitability and increases customer acquisition cost
 | Domain | Banking & Financial Services |
 | Target Variable | Attrition_Flag |
 
-**Dataset Source:**
+### Original Dataset
 
-https://www.kaggle.com/datasets/gauravtopiwala/bank-customer-churn-prediction
+This project uses the **Bank Customer Churn Prediction** dataset from Kaggle.
+
+**Source:**
+https://www.kaggle.com/datasets/bhuviranga/customer-churn-data?select=Bank+Customer+Churn+Prediction.csv
+
+### Cleaned Dataset
+
+The cleaned dataset used for analysis is included in this repository:
+
+
+"C:\Users\himan\OneDrive\Apps\Desktop\Customer Lifetime Value & Retention Strategy for a Premium Credit Card Company\BankChurners_Cleaned.csv"
+
+
+The dataset was cleaned and enriched by:
+
+- Removing unnecessary columns
+- Creating Age Group categories
+- Creating Customer Value segments
+- Creating Customer Status labels
+- Creating Utilization Categories
+- Preparing the data for SQL, Python, and Power BI analysis
 
 ---
 
